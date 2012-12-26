@@ -6,7 +6,8 @@
     <string name="button_send">Küldés</string>
     <string name="menu_settings">Beállítások</string>
     <string name="title_activity_main">Főképernyő</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="about">Névjegy</string>
+    <string name="hello_world">Hello-Bello!</string>
     <string name="title_activity_display_message">Üzenet ablak</string>
 
 </resources>
