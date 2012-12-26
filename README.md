@@ -1,6 +1,9 @@
 Appocska
 --------
 
+Version 0.3 - Big leaps
+- Added dummy settings menu and about toast
+
 Version 0.2
 - Knows something, but nothing fancy
 
