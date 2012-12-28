@@ -1,5 +1,9 @@
-Appocska
---------
+Pill Reminder
+-------------
+
+Version 0.4 - Pill Reminder
+- Added hungarian localizations
+- Namechange from Appocska to Pill Reminder
 
 Version 0.3 - Big leaps
 - Added dummy settings menu and about toast

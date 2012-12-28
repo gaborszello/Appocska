@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
             	startActivity(new Intent(this, SettingsActivity.class));
                 return true;
             case R.id.about:
-            	Toast.makeText(this, "Írta: Szellõ Gábor", Toast.LENGTH_SHORT).show();
+            	Toast.makeText(this, R.string.written_by, Toast.LENGTH_SHORT).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
