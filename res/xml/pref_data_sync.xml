@@ -5,21 +5,12 @@
          dismiss it.
     -->
     <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
-    <ListPreference
-        android:defaultValue="180"
-        android:entries="@array/pref_sync_frequency_titles"
-        android:entryValues="@array/pref_sync_frequency_values"
-        android:key="sync_frequency"
-        android:negativeButtonText="@null"
-        android:positiveButtonText="@null"
-        android:title="@string/pref_title_sync_frequency" />
 
-    <!--
-         This preference simply launches an intent when selected. Use this UI sparingly, per
-         design guidelines.
-    -->
-    <Preference android:title="@string/pref_title_system_sync_settings" >
-        <intent android:action="android.settings.SYNC_SETTINGS" />
-    </Preference>
-
+    <Preference android:title="@string/follow_me_on_facebook"
+        		android:key="facebookKey" />
+    <Preference android:title="@string/follow_me_on_twitter"
+        		android:key="twitterKey" />
+    <Preference android:title="@string/created"
+                android:summary="@string/created_by" />
+    
 </PreferenceScreen>

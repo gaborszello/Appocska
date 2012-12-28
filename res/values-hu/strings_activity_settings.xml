@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_settings">Beállítások</string>
 
     <!-- Strings related to Settings -->
 
@@ -25,18 +25,18 @@
     </string-array>
 
     <!-- Example settings for Data & Sync -->
-    <string name="pref_header_data_sync">About</string>
+    <string name="pref_header_data_sync">Az alkalmazásról</string>
 
-    <string name="follow_me_on_facebook">Follow me on Facebook!</string>
-    <string name="follow_me_on_twitter">Follow me on Twitter!</string>
-    <string name="creator">Created by</string>
-    <string name="created_by">Gábor Szellő</string>
+    <string name="follow_me_on_facebook">Kövess a Facebookon!</string>
+    <string name="follow_me_on_twitter">Kövess a Twitteren!</string>
+    <string name="created">Készítette</string>
+    <string name="created_by">Szellő Gábor</string>
 
     <!-- Example settings for Notifications -->
-    <string name="pref_header_notifications">Notifications</string>
-    <string name="pref_title_alert">Alert</string>
-    <string name="pref_title_ringtone">Ringtone</string>
-    <string name="pref_ringtone_silent">Silent</string>
-    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_header_notifications">Értesítések</string>
+    <string name="pref_title_alert">Riasztás</string>
+    <string name="pref_title_ringtone">Csengőhang</string>
+    <string name="pref_ringtone_silent">Néma</string>
+    <string name="pref_title_vibrate">Rezgés</string>
 
 </resources>
