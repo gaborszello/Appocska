@@ -1,6 +1,9 @@
 Pill Reminder
 -------------
 
+Version 0.4.1 - Iconic release
+- New appropriate icon
+
 Version 0.4 - Pill Reminder
 - Added hungarian localizations
 - Namechange from Appocska to Pill Reminder
