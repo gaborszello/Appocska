@@ -25,12 +25,12 @@
     </string-array>
 
     <!-- Settings for About -->
-    <string name="pref_header_data_sync">Az alkalmazásról</string>
+    <string name="pref_header_data_sync">Névjegy</string>
 
-    <string name="like_me_on_facebook">Lájkolj a Facebookon!</string>
     <string name="follow_me_on_twitter">Kövess a Twitteren!</string>
     <string name="created">Készítette</string>
     <string name="created_by">Szellő Gábor</string>
+    <string name="version">Verzió</string>
 
     <!-- Settings for Notifications -->
     <string name="pref_header_notifications">Értesítések</string>

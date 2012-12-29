@@ -1,10 +1,5 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <Preference android:title="@string/like_me_on_facebook" >
-    			<intent
-        			android:action="android.intent.action.VIEW"
-        			android:data="https://m.facebook.com/gabor.szello" />
-    </Preference>
     <Preference android:title="@string/follow_me_on_twitter" >
         		<intent
         			android:action="android.intent.action.VIEW"
@@ -12,5 +7,7 @@
 	</Preference>
     <Preference android:title="@string/created"
                 android:summary="@string/created_by" />
+    <Preference android:title="@string/version"
+                android:summary="@string/version_number" />
     
 </PreferenceScreen>

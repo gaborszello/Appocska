@@ -27,10 +27,11 @@
     <!-- Settings for About -->
     <string name="pref_header_data_sync">About</string>
 
-    <string name="like_me_on_facebook">Like me on Facebook!</string>
     <string name="follow_me_on_twitter">Follow me on Twitter!</string>
     <string name="creator">Created by</string>
     <string name="created_by">Gábor Szellő</string>
+    <string name="version">Version</string>
+    <string name="version_number">0.5</string>
 
     <!-- Settings for Notifications -->
     <string name="pref_header_notifications">Notifications</string>
