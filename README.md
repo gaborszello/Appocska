@@ -1,6 +1,10 @@
 Pill Reminder
 -------------
 
+Version 0.6 - Cleaning up
+- Lot of stuff deleted/modified
+- Implemented Up navigation all around the app
+
 Version 0.5 - Settings, settings, settings...
 - Lot of new stuff in the settings
 - Removed unnecessary lines of code
