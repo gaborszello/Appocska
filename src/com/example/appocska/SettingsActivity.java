@@ -1,7 +1,10 @@
 package com.example.appocska;
 
+import java.util.List;
+
 import android.annotation.TargetApi;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
@@ -16,8 +19,7 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
 import android.text.TextUtils;
-
-import java.util.List;
+import android.view.MenuItem;
 
 /**
  * A {@link PreferenceActivity} that presents a set of application settings. On
@@ -38,14 +40,34 @@ public class SettingsActivity extends PreferenceActivity {
 	 * shown on tablets.
 	 */
 	private static final boolean ALWAYS_SIMPLE_PREFS = false;
-
+	
 	@Override
 	protected void onPostCreate(Bundle savedInstanceState) {
 		super.onPostCreate(savedInstanceState);
-
 		setupSimplePreferencesScreen();
+		// Show the Up button in the action bar.
+		getActionBar().setDisplayHomeAsUpEnabled(true);
 	}
-
+	
+	// Up Navigation
+	
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+	    switch (item.getItemId()) {
+	        case android.R.id.home:
+	            // This is called when the Home (Up) button is pressed
+	            // in the Action Bar.
+	            Intent parentActivityIntent = new Intent(this, MainActivity.class);
+	            parentActivityIntent.addFlags(
+	                    Intent.FLAG_ACTIVITY_CLEAR_TOP |
+	                    Intent.FLAG_ACTIVITY_NEW_TASK);
+	            startActivity(parentActivityIntent);
+	            finish();
+	            return true;
+	    }
+	    return super.onOptionsItemSelected(item);
+	}
+	
 	/**
 	 * Shows the simplified settings UI if the device configuration if the
 	 * device configuration dictates that a simplified, single-pane UI should be

@@ -8,7 +8,6 @@
     <string name="title_activity_main">Main window</string>
     <string name="about">About</string>
     <string name="written_by">Written by: Gábor Szellő</string>
-    <string name="hello_world">Hello-Bello!</string>
     <string name="title_activity_display_message">Message window</string>
 
 </resources>

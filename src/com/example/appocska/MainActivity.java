@@ -16,6 +16,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Disable the Up button in the action bar.
+     	getActionBar().setDisplayHomeAsUpEnabled(false);
     }
 
     @Override
