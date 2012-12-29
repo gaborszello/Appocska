@@ -2,12 +2,7 @@
 <resources>
 
     <string name="app_name">Pill Reminder</string>
-    <string name="edit_message">Write in something</string>
-    <string name="button_send">Send</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Main window</string>
-    <string name="about">About</string>
-    <string name="written_by">Written by: Gábor Szellő</string>
-    <string name="title_activity_display_message">Message window</string>
 
 </resources>

@@ -23,14 +23,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.appocska.DisplayMessageActivity"
-            android:label="@string/title_activity_display_message"
-            android:parentActivityName="com.example.appocska.MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.appocska.MainActivity" />
-        </activity>
-        <activity
             android:name="com.example.appocska.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
