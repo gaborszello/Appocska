@@ -24,15 +24,15 @@
         <item>-1</item>
     </string-array>
 
-    <!-- Example settings for Data & Sync -->
+    <!-- Settings for About -->
     <string name="pref_header_data_sync">About</string>
 
-    <string name="follow_me_on_facebook">Follow me on Facebook!</string>
+    <string name="like_me_on_facebook">Like me on Facebook!</string>
     <string name="follow_me_on_twitter">Follow me on Twitter!</string>
     <string name="creator">Created by</string>
     <string name="created_by">Gábor Szellő</string>
 
-    <!-- Example settings for Notifications -->
+    <!-- Settings for Notifications -->
     <string name="pref_header_notifications">Notifications</string>
     <string name="pref_title_alert">Alert</string>
     <string name="pref_title_ringtone">Ringtone</string>

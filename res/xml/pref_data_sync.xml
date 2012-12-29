@@ -1,15 +1,15 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <!--
-         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
-         dismiss it.
-    -->
-    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
-
-    <Preference android:title="@string/follow_me_on_facebook"
-        		android:key="facebookKey" />
-    <Preference android:title="@string/follow_me_on_twitter"
-        		android:key="twitterKey" />
+    <Preference android:title="@string/like_me_on_facebook" >
+    			<intent
+        			android:action="android.intent.action.VIEW"
+        			android:data="https://m.facebook.com/gabor.szello" />
+    </Preference>
+    <Preference android:title="@string/follow_me_on_twitter" >
+        		<intent
+        			android:action="android.intent.action.VIEW"
+        			android:data="https://mobile.twitter.com/gaborszello" />
+	</Preference>
     <Preference android:title="@string/created"
                 android:summary="@string/created_by" />
     

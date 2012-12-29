@@ -1,6 +1,11 @@
 Pill Reminder
 -------------
 
+Version 0.5 - Settings, settings, settings...
+- Lot of new stuff in the settings
+- Removed unnecessary lines of code
+- Added new localizations
+
 Version 0.4.1 - Iconic release
 - New appropriate icon
 
